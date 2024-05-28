@@ -1,0 +1,131 @@
+/* Weather.css */
+
+
+
+
+.container {
+  max-width: 490px;
+  margin: 0 auto;
+  padding: 24px 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: aliceblue;
+}
+.section-1 {
+  display: block;
+  background: #007bff;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+  height: 140px;
+  margin-bottom: 5px;
+}
+.section-2 {
+  display: block;
+  background: #007bff;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+  height: 140px;
+}
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: calc(100% - 80px);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vt-body {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+
+.vt-body h1 {
+  margin-top: 30px;
+}
+
+
+p {
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+form.vt-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.weather-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.weather-input {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.weather-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-city {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
